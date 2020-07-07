@@ -1,0 +1,39 @@
+Html Code Start Here
+
+<a href="#" class="btt"><i class="fa fa-chevron-up"></i></a>
+
+Html Code End Here
+
+Jquery Code Start Here
+
+$('.btt').click(function(){
+        $('html, body').animate({scrollTop: 0}, 2000);
+    });
+    
+Jquery Code End Here
+
+Css Code Start Here
+
+.btt {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    z-index: 99;
+    text-align: center;
+}
+
+.btt i {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    line-height: 35px;
+    color: #ffffff;
+    background: #e84545;
+    transition: all linear .3s;
+}
+
+.btt i:hover {
+    background: #ff7474;
+}
+
+Css Code End Here
